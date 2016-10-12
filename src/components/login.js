@@ -13,9 +13,9 @@ class Login extends React.Component {
   render() {
     return (
     	<div>
-    		<div className="notice">my name : {this.props.name}</div>
-    		<div className="notice">my age : {this.state.age}</div>
-    	</div>  
+    	   <div className="notice"> my name :{this.props.name}</div>
+    	   <div className="notice"> my age :{this.state.age}</div>
+      </div>  
     );
   }
 }
